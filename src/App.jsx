@@ -12,6 +12,9 @@ import FilterProducts from "./components/FilterProducts";
 import LearningUseEffect from "./components/LearningUseEffect";
 import SomethingNew1 from "./components/something/SomethingNew1";
 import CardComponent from "./components/something/CardComponent";
+import DataFetch from "./components/DataFetch";
+import Forms from "./components/Forms";
+import Meal from "./food-recipe/Meal";
 
 const App = () => {
   return (
@@ -28,6 +31,9 @@ const App = () => {
         <Route path="/use-effect" element={<LearningUseEffect />} />
         <Route path="/something-1" element={<SomethingNew1 />} />
         <Route path="/card-component" element={<CardComponent />} />
+        <Route path="/data-fetch-api" element={<DataFetch />} />
+        <Route path="/form-handling" element={<Forms />} />
+        <Route path="/food-recipe" element={<Meal />} />
       </Routes>
       <Footer /> {/* Footer bhi har page par dikhega */}
     </Router>
