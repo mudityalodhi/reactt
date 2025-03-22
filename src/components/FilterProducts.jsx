@@ -33,7 +33,7 @@ const FilterProducts = () => {
 
   return (
     <div className="p-5 text-center">
-      <h1 className="text-3xl font-bold mb-5">Filter Products bt Category</h1>
+      <h1 className="text-3xl font-bold mb-5">Filter Products by Category</h1>
 
       {/* Filter Buttons */}
       <div className="mb-4 flex flex-wrap justify-center gap-3">
