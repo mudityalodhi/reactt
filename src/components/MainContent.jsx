@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const MainContent = () => {
   return (
-    <div className="bg-white flex flex-col items-center justify-start h-screen pt-20">
+    <div className="bg-gray-50 flex flex-col items-center justify-start h-screen pt-20">
       <h1 className="text-3xl font-bold text-black mb-4">
         I'm Learning React.js
       </h1>

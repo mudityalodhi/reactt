@@ -13,14 +13,14 @@ const DataFetch = () => {
         console.error("Error fetching data:", error);
       }
     };
-
     fetchDataFromAPI();
   }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-300 p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      
       {apiData.slice(0, 28).map((data) => (
-        
+       
         <div
           key={data.id}
           className="bg-white shadow-lg p-4 rounded-xl border-l-4 border-red-500 hover:bg-gray-50 transition-transform duration-300 ease-in-out hover:scale-105"
