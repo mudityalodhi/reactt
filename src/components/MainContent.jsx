@@ -89,6 +89,12 @@ const MainContent = () => {
         >
           Food Recipe
         </Link>
+        <Link
+          to="/courses"
+          className="bg-white text-black px-4 py-2 rounded-lg shadow-md border-b-4 border-red-600 hover:text-red-600"
+        >
+          Courses
+        </Link>
       </div>
     </div>
   );

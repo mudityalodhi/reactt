@@ -15,6 +15,8 @@ import CardComponent from "./components/something/CardComponent";
 import DataFetch from "./components/DataFetch";
 import Forms from "./components/Forms";
 import Meal from "./food-recipe/Meal";
+import Courses from "./pages/Courses";
+import CourseDetails from "./pages/CourseDetails";
 
 const App = () => {
   return (
@@ -34,6 +36,8 @@ const App = () => {
         <Route path="/data-fetch-api" element={<DataFetch />} />
         <Route path="/form-handling" element={<Forms />} />
         <Route path="/food-recipe" element={<Meal />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/courses/:id" element={<CourseDetails />} />
       </Routes>
       <Footer /> {/* Footer bhi har page par dikhega */}
     </Router>
