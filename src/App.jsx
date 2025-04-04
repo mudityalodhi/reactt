@@ -17,6 +17,7 @@ import Forms from "./components/Forms";
 import Meal from "./food-recipe/Meal";
 import Courses from "./pages/Courses";
 import CourseDetails from "./pages/CourseDetails";
+import About from "./pages/About";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/food-recipe" element={<Meal />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/courses/:id" element={<CourseDetails />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer /> {/* Footer bhi har page par dikhega */}
     </Router>
